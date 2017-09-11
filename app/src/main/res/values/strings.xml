@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Bondhu Chat </string>
+    <string name="start_reg_btn">NEED A NEW ACCOUNT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_message_hint">Enter Message...</string>
+    <string name="send_btn_text">send</string>
+    <string name="msg_single_dispaly_message">Dispaly Message</string>
+    <string name="account_login_btn_text">ACCOUNT LOGIN</string>
+    <string name="login_email">Email</string>
+    <string name="login_btn_text">LOGIN</string>
+    <string name="login_password_hint">Password</string>
+    <string name="profile_total_friend">384 Friends | 3 Mutual Friends</string>
+    <string name="profile_decline_friend_request">DECLINE FRIEND REQUEST</string>
+    <string name="profile_dispaly_name">Dispaly Name</string>
+    <string name="profile_send_friend_request">SEND FRIEND REQUEST</string>
+    <string name="profile_user_current_status">User Current Status</string>
+    <string name="register_create_a_new_account">Create A new Account</string>
+    <string name="register_btn_create_account">Create Account</string>
+    <string name="register_display_name">Display Name</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="setting_btn_change_image">Change Image</string>
+    <string name="_setting_btn_change_status">Change Status</string>
+    <string name="setting_display_name">Display Name</string>
+    <string name="setting_status">Hi There, I\'m Using Bondho Chat</string>
+    <string name="start_welcome">Welcome to Bondhu Chat</string>
+    <string name="startt_already_have_account">Already Have Account</string>
+    <string name="status_update_your_status">Update Your Status</string>
+    <string name="status_your_status">Your Status</string>
+    <string name="chat_bar_dispaly_name">Dispaly Name</string>
+    <string name="chat_bar_last_seen">Last Seen</string>
+    <string name="user_single_display_name">Display Name</string>
+    <string name="user_single_user_defalt_status">User Defalt Status</string>
+    <string name="user_single_profile_image">profile image</string>
+    <string name="request_accept">ACCEPT</string>
+    <string name="request_cancel">CANCEL</string>
+    <string name="setting_edit_profile">EDIT INFO</string>
+    <string name="setting_settings">SETTINGS</string>
+    <string name="facebook_app_id">102452583822224</string>
+    <string name="fb_login_protocol_scheme">fb102452583822224</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="autocomplete_hint">Search a Place</string>
+</resources>

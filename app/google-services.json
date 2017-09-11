@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "938185441508",
+    "firebase_url": "https://bondhu-63508.firebaseio.com",
+    "project_id": "bondhu-63508",
+    "storage_bucket": "bondhu-63508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938185441508:android:ab81fa3d1dd0f03f",
+        "android_client_info": {
+          "package_name": "com.sheikhsoft.bondhu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938185441508-m5ost2a5a0sgamb0fpmqe1icjli2pop8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheikhsoft.bondhu",
+            "certificate_hash": "c4e1083e33fe38625c91d026bd3b6e15e8c926e5"
+          }
+        },
+        {
+          "client_id": "938185441508-n3omag6kdvv119oblb39ufk7fkq8qecj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4FXTH5ygj8-piEQNNlJr4wZ7pAnvFjSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938185441508-n3omag6kdvv119oblb39ufk7fkq8qecj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

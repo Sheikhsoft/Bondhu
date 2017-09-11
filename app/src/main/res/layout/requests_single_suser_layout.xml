@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/request_single_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/request_single_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/user_single_profile_image"
+            android:src="@drawable/default_man"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/request_single_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/request_single_image"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/request_single_image"
+            android:text="@string/user_single_display_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/request_single_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/request_single_image"
+            android:layout_alignStart="@+id/request_single_name"
+            android:layout_marginBottom="11dp"
+            android:text="@string/user_single_user_defalt_status" />
+
+        <ImageView
+            android:id="@+id/request_single_online"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignTop="@+id/request_single_name"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="70dp"
+            android:layout_toEndOf="@+id/request_single_message"
+            android:contentDescription=""
+            android:visibility="invisible"
+            app:srcCompat="@drawable/online"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/request_accept_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/request_single_message"
+            android:layout_below="@+id/request_single_message"
+            android:background="@color/colorPrimary"
+            android:text="@string/request_accept"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/request_single_cancle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/request_single_message"
+            android:layout_marginEnd="41dp"
+            android:background="@color/colorAccent"
+            android:text="@string/request_cancel"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+

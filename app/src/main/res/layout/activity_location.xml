@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sheikhsoft.bondhu.reg.LocationActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/img_change_contunue_btn"
+        android:layout_below="@+id/location_progress_bar"
+        android:text="My"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="10dp"
+        android:text="Location"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/location_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView13"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/autocomplete_places"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_style"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="9dp"
+        android:hint="@string/autocomplete_hint"
+        android:paddingLeft="8dp"
+
+        android:paddingRight="9dp"
+        android:singleLine="true"
+        android:textColor="@android:color/primary_text_light"
+        android:textColorHint="@color/grey"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/cross" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/autocomplete_places"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/img_change_contunue_btn" />
+
+    <Button
+        android:id="@+id/img_change_contunue_btn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:text="CONTUNUE"
+        android:visibility="invisible" />
+
+</RelativeLayout>
